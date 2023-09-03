@@ -4,6 +4,9 @@
 html {scroll-behavior:smooth;}
 html,body {font-family: 'Diphylleia', serif; }
 
+::-webkit-scrollbar {width: 0px;}
+
+
 /*전체 레이아웃*/
 #layout {max-width:800px; margin:auto; position:relative; padding:30px 10px; overflow-x:hidden;}
 img {display:block; max-width:100%;}
