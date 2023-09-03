@@ -2,7 +2,7 @@
 
 * {padding:0; margin:0; box-sizing:border-box;}
 html {scroll-behavior:smooth;}
-body {font-family: 'Gowun Dodum', sans-serif; line-height:180%;}
+body {font:10pt/180%  'Gowun Dodum', sans-serif;}
 ::-webkit-scrollbar {width: 0px;}
 
 
