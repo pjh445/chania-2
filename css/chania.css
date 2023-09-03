@@ -13,7 +13,7 @@ img {display:block; max-width:100%;}
 
 /*상단*/
 header {max-width:1000px; margin:auto; background:#5bb4db; color:white; display:flex; align-items:center; padding:10px 40px 10px 10px;}
-header button.material-symbols-outlined {background:none; padding:6px; font-size:1.5rem; color:white; border:none;}
+header button.material-symbols-outlined {background:none; padding:6px; font-size:1.8rem; color:white; border:none;}
 header h1 {flex:1; text-align:center;}
 
 /*메뉴*/
