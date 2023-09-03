@@ -43,7 +43,7 @@ aside h2::before {content:url('../images/bullet.png'); padding-right:6px;  displ
 aside p:not(:last-of-type) {padding-bottom:7px;}
 
 /*하단*/
-footer {max-width:800px; margin:auto; background:#ddd; padding:15px; font-size:0.9rem;}
+footer {max-width:1000px; margin:auto; background:#ddd; padding:15px; font-size:0.9rem;}
 footer span {color:#666; font-size:0.8rem; padding-left:20px;}
 
 
