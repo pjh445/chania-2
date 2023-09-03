@@ -2,7 +2,7 @@
 
 * {padding:0; margin:0; box-sizing:border-box;}
 html {scroll-behavior:smooth;}
-html,body {font-family: 'Diphylleia', serif; }
+html,body {font-family: 'Diphylleia', serif; font-size:11pt; }
 
 ::-webkit-scrollbar {width: 0px;}
 
