@@ -5,11 +5,11 @@ html {scroll-behavior:smooth;}
 html,body {font-family: 'Diphylleia', serif; }
 
 /*전체 레이아웃*/
-#layout {max-width:500px; margin:auto; position:relative; padding:30px 10px;  border:2px solid red; overflow-x:hidden;}
+#layout {max-width:800px; margin:auto; position:relative; padding:30px 10px;  border:2px solid red; overflow-x:hidden;}
 img {display:block; max-width:100%;}
 
 /*상단*/
-header {max-width:500px; margin:auto; background:#5bb4db; color:white; display:flex; align-items:center; padding:10px 40px 10px 10px;}
+header {max-width:800px; margin:auto; background:#5bb4db; color:white; display:flex; align-items:center; padding:10px 40px 10px 10px;}
 header button.material-symbols-outlined {background:none; padding:6px; font-size:1.5rem; color:white; border:none;}
 header h1 {flex:1; text-align:center;}
 
@@ -34,13 +34,13 @@ main figcaption {font-size:0.9rem; color:#555; padding-top:6px; text-align:cente
 
 
 /*부가정보*/
-aside {max-width:500px; margin:auto; background:rgba(91,181,219, 0.3); padding: 15px;}
+aside {max-width:800px; margin:auto; background:rgba(91,181,219, 0.3); padding: 15px;}
 aside h2 {font-size:1.2rem;}
 aside h2::before {content:url('../images/bullet.png'); padding-right:6px;  display:inline-block; transform:translateY(-2px);}
 aside p:not(:last-of-type) {padding-bottom:7px;}
 
 /*하단*/
-footer {max-width:500px; margin:auto; background:#ddd; padding:15px; font-size:0.9rem;}
+footer {max-width:800px; margin:auto; background:#ddd; padding:15px; font-size:0.9rem;}
 footer span {color:#666; font-size:0.8rem; padding-left:20px;}
 
 
@@ -48,7 +48,7 @@ footer span {color:#666; font-size:0.8rem; padding-left:20px;}
 #up  {position:fixed; background:white; box-shadow:0 0 5px black; bottom:10px; right:calc(((100% - 500px) / 2) + 10px); text-decoration:none; color:black; border-radius:5px;}
 
 /* 넓이 0~500픽셀 브라우저 */
-@media(max-width:500px){
+@media(max-width:800px){
 	#up {right:10px;}
 }
 
