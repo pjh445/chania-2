@@ -5,7 +5,7 @@ html {scroll-behavior:smooth;}
 html,body {font-family: 'Diphylleia', serif; }
 
 /*전체 레이아웃*/
-#layout {max-width:500px; margin:auto; position:relative; padding:30px 10px;}
+#layout {max-width:500px; margin:auto; position:relative; padding:30px 10px;  border:2px solid red; overflow-x:hidden;}
 img {display:block; max-width:100%;}
 
 /*상단*/
